@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Topbar from "./Topbar";
+import logo from '@assets/images/softgen-logo.svg'
+import Image from "next/image";
 
 const Header = () => {
    return (
@@ -9,12 +11,12 @@ const Header = () => {
                <Topbar />
                <div className="w-full h-[95px] flex justify-between items-center px-[50px] border border-[#e7e8e9] bg-white border-t-0 relative">
                   <div className="flex 2xl:space-x-[100px] xl:space-x-10 justify-between items-center w-full xl:w-auto">
-                     <div>
+                     <div className="w-2/4">
                         <Link href="/" aria-label="logo">
-                           <img src="/assets/images/logo-1.webp" alt="" />
+                           <Image width={200} height={50} src={logo} alt="SoftGen Logo" />
                         </Link>
                      </div>
-                     <div>
+                     <div className="w-2/4">
                         <ul className="flex items-center space-x-10">
                            <li className="font-semibold text-paragraph hover:underline hover:text-brand">
                               <Link href="/">Home</Link>

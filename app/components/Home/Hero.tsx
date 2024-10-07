@@ -1,11 +1,11 @@
 "use client";
+import HeroRightBg from "@assets/images/home/hero-right-bg.svg";
 import HeroRightImage from "@assets/images/home/hero-right-image.png";
 import Image from "next/image";
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
 import Button from "../common/Button";
 import WinGrid from "./WinGrid";
-import HeroRightBg from '@assets/images/home/hero-right-bg.svg';
 
 export default function Hero() {
    const sceneRef = useRef(null);
@@ -159,7 +159,9 @@ export default function Hero() {
                         {/* <!-- shadow --> */}
                         <div className="absolute bottom-0 left-0 w-full overflow-hidden">
                            <div className="flex justify-center">
-                              <Image width={750} height={420}
+                              <Image
+                                 width={750}
+                                 height={420}
                                  src={HeroRightBg}
                                  alt="hero Right Bg"
                               />
