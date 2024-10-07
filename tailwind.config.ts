@@ -75,6 +75,7 @@ const config: Config = {
             tight: "-0.03em",
          },
          colors: {
+            brand:'#007a79',
             purple: "#794AFF",
             "main-black": "#101828",
             "main-gray": "#F3F4F9",
