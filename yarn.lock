@@ -213,6 +213,16 @@
     "@swc/counter" "^0.1.3"
     tslib "^2.4.0"
 
+"@tsparticles/engine@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@tsparticles/engine/-/engine-3.5.0.tgz#5de20741cc17193bc7a0b84e81dfd831c3d39364"
+  integrity sha512-RCwrJ2SvSYdhXJ24oUCjSUKEZQ9lXwObOWMvfMC9vS6/bk+Qo0N7Xx8AfumqzP/LebB1YJdlCvuoJMauAon0Pg==
+
+"@tsparticles/react@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@tsparticles/react/-/react-3.0.0.tgz#d0a794ba53164eb39ce88a3961be723a636b37c0"
+  integrity sha512-hjGEtTT1cwv6BcjL+GcVgH++KYs52bIuQGW3PWv7z3tMa8g0bd6RI/vWSLj7p//NZ3uTjEIeilYIUPBh7Jfq/Q==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -2515,6 +2525,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+tailwind-merge@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-2.5.3.tgz#579546e14ddda24462e0303acd8798c50f5511bb"
+  integrity sha512-d9ZolCAIzom1nf/5p4LdD5zvjmgSxY0BGgdSvmXIoMYAiPdAW/dSpP7joCDYFY7r/HkEa2qmPtkgsu0xjQeQtw==
 
 tailwindcss@^3.4.1:
   version "3.4.13"
