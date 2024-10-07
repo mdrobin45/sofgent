@@ -2,15 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* google fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap");
-/* google fonts  end */
 html {
    scroll-behavior: smooth;
    overflow-x: hidden;
 }
 body {
-   font-family: "Manrope", sans-serif;
    font-size: 16px;
    line-height: 30px;
 }
@@ -20,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: "Inter", sans-serif;
+   font-family: var(--font-inter);
 }
 .theme-container {
    max-width: 1330px;
@@ -504,9 +500,9 @@ h6 {
 }
 /* before tick  */
 
-.tick-before::before {
+/* .tick-before::before {
    content: url("../images/tick.svg");
-}
+} */
 
 .case_card_title a:hover {
    background-size: 100% 1px;
@@ -646,7 +642,7 @@ h6 {
    }
 }
 .line-shape {
-   background-image: url("./../../assets/images/home-four/hero-shape.webp");
+   /* background-image: url("./../../assets/images/home-four/hero-shape.webp"); */
    background-repeat: no-repeat;
    background-position: 0 -45px;
    animation: upDownAnim 15s linear infinite;
@@ -1662,9 +1658,9 @@ h6 {
 }
 /* before tick  */
 
-.tick-before::before {
+/* .tick-before::before {
    content: url("../images/tick.svg");
-}
+} */
 
 .case_card_title-v2 a:hover {
    background-size: 100% 1px;
