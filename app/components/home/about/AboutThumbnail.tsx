@@ -23,7 +23,7 @@ export default function AboutThumbnail() {
          <div
             data-aos="fade-right"
             className="xl:absolute relative lg:-left-16 left-0 top-0 lg:w-[682px] w-full">
-            <div ref={sceneRef} id="about-shape-mouse-anim">
+            <div id="about-shape-mouse-anim">
                <div data-depth="0.20" className="layer">
                   <div
                      data-aos="fade-right"
