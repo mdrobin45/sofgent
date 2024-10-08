@@ -1,6 +1,6 @@
 "use client";
+import lineAnimation from "@utils/left_lines.json";
 import Lottie from "lottie-react";
-import lineAnimation from "./left_lines.json";
 
 export default function LottieLines() {
    return (
