@@ -2,6 +2,7 @@ import About from "@/app/components/home/about/About";
 import FunFact from "@/app/components/home/funFact";
 import Hero from "@components/home/hero";
 import Service from "@components/home/services";
+import WorkProcess from "./components/home/workProcess";
 
 export default function Home() {
    return (
@@ -9,7 +10,8 @@ export default function Home() {
          <Hero />
          <About />
          <FunFact />
-         <Service/>
+         <Service />
+         <WorkProcess />
       </main>
    );
 }

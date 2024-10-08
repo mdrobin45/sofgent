@@ -12,7 +12,7 @@ export default function About() {
                      <span className="mb-5 section-title-top-tag">
                         About Company
                      </span>
-                     <h2 className="md:text-48 text-34 font-semibold text-main-black mb-[50px] md:w-[80%] w-full xl:w-full">
+                     <h2 className="md:text-48 mt-6 text-34 font-semibold text-main-black mb-[50px] md:w-[80%] w-full xl:w-full">
                         Digital Transforming Brands, Elevating Reach Crafting
                         Success
                      </h2>

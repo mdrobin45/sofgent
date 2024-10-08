@@ -52,10 +52,11 @@ h6 {
    border-radius: 0px;
    border: 1px solid #e5e7ec6b;
 }
-.section-title-top-tag{
+.section-title-top-tag {
    border: 1px solid #e5e7ec6b;
    padding: 8px;
    border-radius: 20px;
+   background-color: #f4f7f6;
 }
 .win-grid-two .win-btn {
    border: 1px solid #ffffff05;
