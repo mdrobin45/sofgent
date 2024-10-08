@@ -1,13 +1,15 @@
 import About from "@/app/components/home/about/About";
-import Hero from "@/app/components/home/Hero";
-import FunFact from "@components/home/FunFact";
+import FunFact from "@/app/components/home/funFact";
+import Hero from "@components/home/hero";
+import Service from "@components/home/services";
 
 export default function Home() {
    return (
       <main>
          <Hero />
          <About />
-         <FunFact/>
+         <FunFact />
+         <Service/>
       </main>
    );
 }

@@ -4,7 +4,7 @@ import HeroRightImage from "@assets/images/home/hero-right-image.png";
 import Image from "next/image";
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
-import Button from "../common/Button";
+import Button from "../../common/Button";
 import WinGrid from "./WinGrid";
 
 export default function Hero() {
