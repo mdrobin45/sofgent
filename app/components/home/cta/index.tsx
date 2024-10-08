@@ -2,12 +2,11 @@
 import ctaShape from "@assets/images/home/cta-bg-transparent.png";
 import dotShape from "@assets/images/home/cta-dot-shape.webp";
 import ctaImg1 from "@assets/images/home/cta-man.webp";
-import lineAnimation from "@utils/left_lines.json";
-import Lottie from "lottie-react";
 import Image from "next/image";
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
 import Button from "../../common/Button";
+import LottieLines from "../../common/LottieLine";
 
 export default function Cta() {
    const sceneRef = useRef(null);
@@ -74,14 +73,7 @@ export default function Cta() {
                   </div>
                </div>
             </div>
-            <div className="absolute flex justify-between top-20">
-               <Lottie animationData={lineAnimation} loop={true} />
-               <Lottie
-                  animationData={lineAnimation}
-                  className="transform rotate-180"
-                  loop={true}
-               />
-            </div>
+            <LottieLines classNames="top-20" />
          </div>
       </section>
    );

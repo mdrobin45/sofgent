@@ -1,10 +1,15 @@
 "use client";
 import lineAnimation from "@utils/left_lines.json";
 import Lottie from "lottie-react";
+import { twMerge } from "tailwind-merge";
 
-export default function LottieLines() {
+const LottieLines: React.FC<{ classNames?: string }> = ({ classNames }) => {
    return (
-      <div className="absolute flex justify-between top-1/3">
+      <div
+         className={twMerge(
+            "absolute flex justify-between top-1/3",
+            classNames
+         )}>
          <Lottie animationData={lineAnimation} loop={true} />
          <Lottie
             animationData={lineAnimation}
@@ -13,4 +18,6 @@ export default function LottieLines() {
          />
       </div>
    );
-}
+};
+
+export default LottieLines;

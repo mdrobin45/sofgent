@@ -6,7 +6,7 @@ import {
    GiftIcon,
    SearchIcon,
 } from "@/app/utils/SVGIcons";
-import LottieLines from "./LottieLine";
+import LottieLines from "../../common/LottieLine";
 import ServiceCard from "./ServiceCard";
 
 // Service List
@@ -74,14 +74,6 @@ export default function Service() {
                   </div>
                </div>
             </div>
-            {/* <div className="absolute flex justify-between top-1/3">
-               <Lottie animationData={lineAnimation} loop={true} />
-               <Lottie
-                  animationData={lineAnimation}
-                  className="transform rotate-180"
-                  loop={true}
-               />
-            </div> */}
             <LottieLines />
          </div>
       </section>
