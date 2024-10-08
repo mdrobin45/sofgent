@@ -75,10 +75,10 @@ const config: Config = {
             tight: "-0.03em",
          },
          colors: {
-            brand: '#326d6d',
+            brand: "#326d6d",
             secondary: "#53aa82",
-            gray:"#f4f7f6",
-            
+            gray: "#f4f7f6",
+            paragraph: "#6d6d6d",
          },
          boxShadow: {
             common: "0px 10px 60px 0px rgba(50, 109, 109, 0.2)",

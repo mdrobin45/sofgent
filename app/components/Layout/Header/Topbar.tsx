@@ -1,16 +1,11 @@
 export default function Topbar() {
    return (
-      <div className="w-full h-[45px] justify-between items-center pl-[50px] bg-white border border-[#e7e8e9] hidden h1-top-bar">
+      <div className="w-full bg-gradient-to-r from-gray to-brand h-[45px] justify-between items-center pl-[50px] bg-white border border-[#e7e8e9] hidden h1-top-bar">
          <span className="hidden 2xl:block">
             Welcome to
             <span className="font-semibold text-brand"> SofGent</span>
          </span>
-         <div
-            style={{
-               backgroundImage:
-                  "linear-gradient(270deg, #007a79 50%,rgba(121, 74, 255, 0) 90.03%)",
-            }}
-            className="2xl:w-[1021px] w-full h-full flex items-center justify-end">
+         <div className="2xl:w-[1021px] w-full h-full flex items-center justify-end">
             <div className="flex space-x-2.5 items-center mr-7">
                <span>
                   <svg
