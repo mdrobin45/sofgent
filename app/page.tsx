@@ -1,4 +1,4 @@
-import About from "@/app/components/home/about/About";
+import About from "@/app/components/home/about";
 import FunFact from "@/app/components/home/funFact";
 import Cta from "@components/home/cta";
 import Hero from "@components/home/hero";

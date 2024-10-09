@@ -7,7 +7,7 @@ export default function FooterOne() {
          <div className="footer-one-wrapper w-full pt-[130px]">
             <div className="mx-auto theme-container">
                <div className="w-full">
-                  <div className="w-full py-[80px] border-t border-[e7e3fa] grid xl:grid-cols-12 md:grid-cols-3 md:gap-10 grid-cols-2 gap-8">
+                  <div className="w-full py-[80px] border-t border-gray grid xl:grid-cols-12 md:grid-cols-3 md:gap-10 grid-cols-2 gap-8">
                      <div className="xl:col-span-3">
                         <div className="w-full mb-10">
                            <p className="text-main-black text-18 font-semibold mb-[30px]">

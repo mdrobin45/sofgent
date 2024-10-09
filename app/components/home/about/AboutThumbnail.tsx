@@ -1,6 +1,6 @@
 "use client";
 import aboutThumb from "@assets/images/home/about -main-thumb.webp";
-import aboutShape from "@assets/images/home/about-shape.webp";
+import aboutShape from "@assets/images/home/about-shapeBg.png";
 import Image from "next/image";
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
@@ -29,8 +29,8 @@ export default function AboutThumbnail() {
                      data-aos="fade-right"
                      className="hidden thumbnil-wrapper md:block">
                      <Image
-                        width={500}
-                        height={550}
+                        width={600}
+                        height={600}
                         src={aboutShape}
                         alt="About Image Background Shape"
                      />

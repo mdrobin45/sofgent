@@ -1,6 +1,7 @@
 
 import Button from "@components/common/Button";
 import CounterUpCard from "./FunFactCard";
+import SectionTag from "../../common/SectionTag";
 
 export default function FunFact() {
    return (
@@ -9,9 +10,7 @@ export default function FunFact() {
             <div className="mx-auto theme-container">
                <div className="grid xl:grid-cols-2 grid-cols-1 xl:gap-[155px]">
                   <div className="w-full">
-                     <span className="mb-5 section-title-top-tag">
-                        Our Fun Fact
-                     </span>
+                     <SectionTag tag="Our Story"/>
                      <h2 className="md:text-48 mt-10 text-34 font-semibold text-main-black mb-[50px]">
                         We worked with diverse clients and industries.
                      </h2>

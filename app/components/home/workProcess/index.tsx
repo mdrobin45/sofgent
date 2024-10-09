@@ -2,6 +2,7 @@
 import workProcess from "@assets/images/home/Process-amico.svg";
 import Image from "next/image";
 import ProcessCard from "./ProcessCard";
+import SectionTag from "../../common/SectionTag";
 
 const processList = [
    {
@@ -31,9 +32,7 @@ export default function WorkProcess() {
                <div className="w-full grid-cols-12 xl:grid">
                   <div className="col-span-5">
                      <div className="title-area">
-                        <span className="mb-5 section-title-top-tag">
-                           Our Work Process
-                        </span>
+                        <SectionTag tag="Working Process"/>
                         <h2 className="md:text-48 mt-6 text-34 font-semibold text-main-black mb-[50px]">
                            Efficiency in Motion Navigating the Working Process
                         </h2>

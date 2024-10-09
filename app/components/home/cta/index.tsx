@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "../../common/Button";
 import LottieLines from "../../common/LottieLine";
 import CtaRightPart from "./CtaRightPart";
+import SectionTag from "../../common/SectionTag";
 
 export default function Cta() {
    return (
@@ -19,9 +20,7 @@ export default function Cta() {
                      />
                   </div>
                   <div className="md:w-2/4 w-full">
-                     <span className="mb-5 section-title-top-tag">
-                        Get Consultations
-                     </span>
+                    <SectionTag  tag="Get Consultation"/>
                      <h2 className="md:text-48 mt-6 text-34 font-semibold mb-[32px]">
                         Get your free digital marketing audit
                      </h2>
