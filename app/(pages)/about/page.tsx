@@ -1,6 +1,7 @@
 import AboutBenefit from "@/app/components/about/aboutBenefits";
 import AboutSofgent from "@/app/components/about/aboutSofGent";
 import AboutFunFact from "@/app/components/about/funFact";
+import AboutTeam from "@/app/components/about/teamMembers";
 import BreadCrumb from "@components/common/BreadCrumb";
 
 export default function About() {
@@ -9,7 +10,8 @@ export default function About() {
          <BreadCrumb pageTitle="About" currentPage="About" to="/" />
          <AboutSofgent />
          <AboutFunFact />
-         <AboutBenefit/>
+         <AboutBenefit />
+         <AboutTeam/>
       </div>
    );
 }
