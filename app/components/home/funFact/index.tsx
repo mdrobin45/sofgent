@@ -1,6 +1,6 @@
 
 import Button from "@components/common/Button";
-import CounterUpCard from "./FunFactCard";
+import CounterUpCard from "./ConunterCard";
 import SectionTag from "../../common/SectionTag";
 
 export default function FunFact() {

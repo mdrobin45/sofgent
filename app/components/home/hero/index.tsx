@@ -1,6 +1,6 @@
+import WinGrid from "@/app/utils/WinGrid";
 import Button from "../../common/Button";
 import HeroRight from "./HeroRight";
-import WinGrid from "./WinGrid";
 
 export default function Hero() {
    return (
