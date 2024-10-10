@@ -38,7 +38,7 @@ export default function HeroRight() {
                   id="hero-mouse-move-anim"
                   className="relative z-10 w-full h-full pointer-events-auto">
                   <div data-depth="0.20" className="layer">
-                     <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#BA4AFF] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full">
+                     <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full">
                         SEO & Marketing
                      </span>
                   </div>
@@ -48,12 +48,12 @@ export default function HeroRight() {
                      </span>
                   </div>
                   <div data-depth="0.40" className="layer h-fit">
-                     <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-blue-sass 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full h-fit">
+                     <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full h-fit">
                         Marketing & Growth
                      </span>
                   </div>
                   <div data-depth="0.50" className="layer h-fit">
-                     <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#FF8C05] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit">
+                     <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit">
                         Keywords Research
                      </span>
                   </div>

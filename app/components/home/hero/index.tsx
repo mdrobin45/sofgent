@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="relative z-10 h-full mx-auto pointer-events-none theme-container">
                <div className="w-full grid xl:grid-cols-2 grid-cols-1 2xl:gap-[130px] gap-10 items-center lg:pt-[223px] pt-[130px] h-full">
                   <div className="article-area">
-                     <div className="inline-flex md:px-6 px-3 py-2.5 md:py-[14px] bg-white space-x-2.5 items-center rounded-full shadow-style-one mb-5">
+                     <div className="inline-flex md:px-6 px-3 py-2.5 md:py-[14px] bg-white space-x-2.5 items-center rounded-full shadow-common mb-5">
                         <span>
                            <svg
                               width="20"
