@@ -79,6 +79,7 @@ const config: Config = {
             secondary: "#53aa82",
             gray: "#f4f7f6",
             paragraph: "#6d6d6d",
+            brandBorder:"#326d6d2a"
          },
          boxShadow: {
             common: "0px 10px 60px 0px rgba(50, 109, 109, 0.2)",

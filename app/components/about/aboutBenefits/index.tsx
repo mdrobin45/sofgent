@@ -1,4 +1,4 @@
-import benefitsImage from "@assets/about/about-benefits.webp";
+import benefitsImage from "@assets/images/about/about-benefits.webp";
 import Image from "next/image";
 import SectionTag from "../../common/SectionTag";
 import BenefitCard from "./BenefitCard";

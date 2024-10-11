@@ -1,5 +1,5 @@
-import aboutCardShape from "@assets/about/about-card-shape.webp";
-import aboutRightImage from "@assets/about/about-right.webp";
+import aboutCardShape from "@assets/images/about/about-card-shape.webp";
+import aboutRightImage from "@assets/images/about/about-right.webp";
 import Image from "next/image";
 import SectionTag from "../../common/SectionTag";
 
