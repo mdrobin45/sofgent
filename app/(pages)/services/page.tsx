@@ -1,3 +1,4 @@
+'use client'
 import BreadCrumb from "@/app/components/common/BreadCrumb";
 import AboutService from "@/app/components/services/aboutService";
 import Faq from "@/app/components/services/faq";
