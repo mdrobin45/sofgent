@@ -74,7 +74,7 @@ export default function Faq() {
                                           width="16"
                                           height="2"
                                           rx="1"
-                                          className={`ttransform origin-center transition duration-200 ease-out ${
+                                          className={`transform origin-center transition duration-200 ease-out ${
                                              activeFaq === index &&
                                              "!rotate-180"
                                           }`}

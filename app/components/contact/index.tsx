@@ -1,3 +1,4 @@
+import { BiEnvelope, BiPhone } from "react-icons/bi";
 import Button from "../common/Button";
 import SocialFollow from "./SocialFollow";
 
@@ -16,11 +17,13 @@ export default function ContactForm() {
                </p>
                <div className="grid grid-cols-1 sm:grid-cols-2 gap-[70px] mt-10">
                   <div className="col-span-1">
-                     <h2 className="flex gap-2.5">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="red" d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm3.519 0L12 11.671L18.481 6zM20 7.329l-7.341 6.424a1 1 0 0 1-1.318 0L4 7.329V18h16z"/></svg>
-                        <span className="font-medium font-inter text-22 text-main-black">
-                           support@sofgent.com
-                        </span>
+                     <h2 className="flex gap-2.5 items-center">
+                        <BiEnvelope className="text-2xl text-brand"/> <a href="mailto:support@sofgent.com">support@sofgent.com</a>
+                     </h2>
+                  </div>
+                  <div className="col-span-1">
+                     <h2 className="flex gap-2.5 items-center">
+                        <BiPhone className="text-2xl text-brand"/> <a href="tel:0123456789">0123456789</a>
                      </h2>
                   </div>
                </div>

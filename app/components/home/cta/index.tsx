@@ -5,9 +5,9 @@ import LottieLines from "../../common/LottieLine";
 import CtaRightPart from "./CtaRightPart";
 import SectionTag from "../../common/SectionTag";
 
-export default function Cta() {
+export default function Cta({className}:{className?:string}) {
    return (
-      <section data-aos="fade-up" id="consultation">
+      <section className={className} data-aos="fade-up" id="consultation">
          <div className="relative w-full consultation-section-wrapper">
             <div className="relative z-10 mx-auto theme-container">
                <div className="w-full bg-gray py-[80px] justify-between xl:pl-[110px] pl-10 border border-brand rounded-[20px] bg-main-gray md:flex relative">
