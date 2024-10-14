@@ -1,6 +1,6 @@
+'use client'
 import WinGrid from "@/app/utils/WinGrid";
 import Link from "next/link";
-import React from "react";
 
 const BreadCrumb: React.FC<{
    pageTitle: string;

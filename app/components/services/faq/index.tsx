@@ -5,27 +5,31 @@ import LottieLines from "../../common/LottieLine";
 // Faq Items
 const faqItems = [
    {
-     question: "What services does Sofgent provide?",
-     answer: "Sofgent specializes in custom software development, web and mobile app development, cloud solutions, and IT consulting services."
+      question: "What services does Sofgent provide?",
+      answer:
+         "Sofgent specializes in custom software development, web and mobile app development, cloud solutions, and IT consulting services.",
    },
    {
-     question: "How does Sofgent ensure project quality?",
-     answer: "We follow industry best practices such as Agile methodology, continuous testing, and client feedback loops to ensure high-quality project delivery."
+      question: "How does Sofgent ensure project quality?",
+      answer:
+         "We follow industry best practices such as Agile methodology, continuous testing, and client feedback loops to ensure high-quality project delivery.",
    },
    {
-     question: "Can Sofgent work with startups?",
-     answer: "Yes, Sofgent has extensive experience working with startups, helping them develop scalable software solutions that grow with their business."
+      question: "Can Sofgent work with startups?",
+      answer:
+         "Yes, Sofgent has extensive experience working with startups, helping them develop scalable software solutions that grow with their business.",
    },
    {
-     question: "What is the typical project timeline with Sofgent?",
-     answer: "Project timelines vary based on scope and complexity, but we typically follow a structured approach that includes planning, development, testing, and deployment within 3 to 6 months."
+      question: "What is the typical project timeline with Sofgent?",
+      answer:
+         "Project timelines vary based on scope and complexity, but we typically follow a structured approach that includes planning, development, testing, and deployment within 3 to 6 months.",
    },
    {
-     question: "How can I get a quote for my project?",
-     answer: "You can get a customized quote by contacting us through our website, providing your project details, and our team will get back to you within 24 hours."
-   }
- ];
- 
+      question: "How can I get a quote for my project?",
+      answer:
+         "You can get a customized quote by contacting us through our website, providing your project details, and our team will get back to you within 24 hours.",
+   },
+];
 
 export default function Faq() {
    const [activeFaq, setActiveFaq] = useState(0);
@@ -102,9 +106,7 @@ export default function Faq() {
                                        : "grid-rows-[0fr] opacity-0"
                                  }`}>
                                  <div className="overflow-hidden">
-                                    <p className="pb-3">
-                                       {faq.answer}
-                                    </p>
+                                    <p className="pb-3">{faq.answer}</p>
                                  </div>
                               </div>
                            </div>

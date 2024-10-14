@@ -1,5 +1,5 @@
 import { FacebookIcon, LinkedinIcon, TwitterIcon } from "@/app/utils/SVGIcons";
-import logo from "@assets/images/softgen-logo.svg";
+import logo from "@assets/images/sofgent-logo-white.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Copyright from "./Copyright";

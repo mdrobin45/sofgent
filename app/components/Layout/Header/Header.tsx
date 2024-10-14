@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Topbar from "./Topbar";
-import logo from '@assets/images/softgen-logo.svg'
+import logo from '@assets/images/sofgent-logo.svg'
 import Image from "next/image";
 
 const Header = () => {
