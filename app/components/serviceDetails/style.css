@@ -1,0 +1,37 @@
+.service-details-page p a{
+   color: #326D6D;
+}
+.service-details-page p{
+   padding: 10px 0;
+}
+.service-details-page img{
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+.service-details-page h1,
+.service-details-page h2,
+.service-details-page h3,
+.service-details-page h4,
+.service-details-page h5,
+.service-details-page h6 {
+   color: #326D6D;
+}
+.service-details-page h2{
+   font-size: 24px;
+   font-weight: 600;
+}
+.service-details-page h3{
+   font-size: 20px;
+   font-weight: 600;
+}
+.service-details-page ul {
+   padding-left: 20px;
+   margin: 10px 0;
+}
+
+.service-details-page ul li {
+   list-style-type: disc;
+   padding: 5px 0;
+   line-height: 26px;
+}

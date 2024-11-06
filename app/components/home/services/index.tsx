@@ -1,54 +1,9 @@
-import {
-   BoardIcon,
-   ComputerMonitorIcon,
-   ContentIcon,
-   EmailSendIcon,
-   GiftIcon,
-   SearchIcon,
-} from "@/app/utils/SVGIcons";
+import getServicesMeta from "@/app/utils/getServicesMeta";
 import LottieLines from "../../common/LottieLine";
 import ServiceCard from "./ServiceCard";
 
-// Service List
-const serviceList = [
-   {
-      title: "Keyword Research",
-      description:
-         "Defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation",
-      icon: SearchIcon,
-   },
-   {
-      title: "Website Optimization",
-      description:
-         "Defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation",
-      icon: BoardIcon,
-   },
-   {
-      title: "Content Marketing",
-      description:
-         "Defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation",
-      icon: ContentIcon,
-   },
-   {
-      title: "Email Marketing",
-      description:
-         "Defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation",
-      icon: EmailSendIcon,
-   },
-   {
-      title: "Social Media Marketing",
-      description:
-         "Defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation",
-      icon: GiftIcon,
-   },
-   {
-      title: "Website Development",
-      description:
-         "Defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation",
-      icon: ComputerMonitorIcon,
-   },
-];
 export default function Service() {
+   const services = getServicesMeta("/app/data/services");
    return (
       <section id="service">
          <div className="w-full service-section-wrapper xl:pb-[130px] pb-[60px] relative">
@@ -63,9 +18,10 @@ export default function Service() {
                      </h2>
                   </div>
                   <div className="w-full grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[70px] gap-8">
-                     {serviceList.map((service, index) => (
+                     {services.map((service) => (
                         <ServiceCard
-                           key={index}
+                           key={service.slug}
+                           slug={service.slug}
                            title={service.title}
                            description={service.description}
                            icon={service.icon}

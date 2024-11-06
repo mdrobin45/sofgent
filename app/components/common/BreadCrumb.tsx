@@ -13,7 +13,7 @@ const BreadCrumb: React.FC<{
             <WinGrid />
             <div className="relative z-20 mx-auto theme-container h-fit w-fit">
                <div className="mt-[120px] md:mt-[272px] w-fit mx-auto relative z-10">
-                  <h1 className="w-full font-semibold text-center text-main-black text-34 sm:text-48">
+                  <h1 className="w-full text-[#2F393E] font-semibold text-center text-34 sm:text-48">
                      {pageTitle}
                   </h1>
                   <div className="flex items-center justify-center gap-5 mt-4">
