@@ -1,6 +1,6 @@
 const AboutCheckList: React.FC<{ text: string }> = ({ text }) => {
    return (
-      <li className="flex space-x-2.5 items-center text-brand font-medium px-5 py-3 bg-main-gray border border-gray leading-none rounded-full">
+      <li className="flex w-full md:w-auto space-x-2.5 items-center text-brand font-medium px-5 py-3 bg-main-gray border border-gray leading-none rounded-full">
          <span>
             <svg
                width="18"

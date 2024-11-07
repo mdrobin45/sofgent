@@ -124,7 +124,7 @@ export default function Footer() {
                </ul>
             </div>
             {/* Quick Link */}
-            <div className="col-span-3 md:col-span-4 xl:col-span-3">
+            <div className="col-span-2">
                <h1 className="font-semibold text-white text-18">Quick Link</h1>
                <ul className="mt-3.5">
                   {quickLinks.map((service, index) => (
@@ -156,11 +156,11 @@ export default function Footer() {
                </ul>
             </div>
             {/* Address */}
-            <div className="col-span-2">
+            <div className="col-span-3">
                <h1 className="font-semibold text-white text-18">Address</h1>
                <div className="flex gap-2 items-center relative group font-medium text-white/50 hover:text-white hover:underline transition-all duration-300 mt-3.5">
                   <span className="transition-all duration-300">
-                     55 Street, 2nd block, 3rd Floor Melbourne, Australia
+                     House No. 12, Road No. 12, Block-A, Dhaka, Bangladesh
                   </span>
                </div>
                <h1 className="font-semibold text-white text-18">Contact</h1>
@@ -168,8 +168,8 @@ export default function Footer() {
                   <span className="">
                      <a
                         className="hover:text-white"
-                        href="mailto:infoquland@gmail.com">
-                        infoquland@gmail.com
+                        href="mailto:contact@sofgent.com">
+                        contact@sofgent.com
                      </a>{" "}
                      <br />
                      <a className="hover:text-white" href="tel:+88045685299">

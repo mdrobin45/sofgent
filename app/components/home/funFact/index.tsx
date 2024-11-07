@@ -21,8 +21,7 @@ export default function FunFact() {
                      </p>
                      <Button btnText="Learn More"/>
                   </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-5">
-                     
+                  <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-5 pt-10 md:pt-0">
                      <CounterUpCard
                         number={15}
                         title="Project Complete"

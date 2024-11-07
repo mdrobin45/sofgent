@@ -5,10 +5,10 @@ export default function SocialFollow() {
             Follow Us
          </h1>
          <a
-            href="#"
+            href="https://www.facebook.com/people/Sofgent/61564357926545/"
             target="blank"
             aria-label="facebook"
-            className="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
+            className="w-10 h-10 text-[#326d6d] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
             <span className="relative z-10">
                <svg
                   width="11"
@@ -27,7 +27,7 @@ export default function SocialFollow() {
             href="#"
             aria-label="twitter"
             target="blank"
-            className="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
+            className="w-10 h-10 text-[#326d6d] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
             <span className="relative z-10">
                <svg
                   width="19"
@@ -46,7 +46,7 @@ export default function SocialFollow() {
             href="#"
             aria-label="instagram"
             target="blank"
-            className="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
+            className="w-10 h-10 text-[#326d6d] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
             <span className="relative z-10">
                <svg
                   width="17"
@@ -64,22 +64,21 @@ export default function SocialFollow() {
             </span>
          </a>
          <a
-            href="#"
-            aria-label="dribble"
+            href="https://www.linkedin.com/company/sofgent/"
+            aria-label="linkedin"
             target="blank"
-            className="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
+            className="w-10 h-10 text-[#326d6d] hover:text-white rounded-full flex justify-center items-center border border-brand/10 overflow-hidden relative before:inline-block before:absolute before:z-0 before:w-full before:h-full before:bg-brand before:scale-x-0 group hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:ease-out before:duration-300">
             <span className="relative z-10">
                <svg
-                  width="17"
-                  height="17"
-                  viewBox="0 0 17 17"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17px"
+                  height="17px"
+                  viewBox="0 0 24 24">
                   <path
                      fillRule="evenodd"
-                     clipRule="evenodd"
-                     d="M0.0787061 9.30823C0.479084 12.1658 2.35861 14.5492 4.91845 15.6594C5.03048 13.3562 5.50604 11.1434 6.2916 9.07041C5.45422 8.9105 4.5871 8.82648 3.69861 8.82648C2.44115 8.82648 1.22661 8.99477 0.0787061 9.30823ZM6.12757 16.0739C6.77863 16.2411 7.46109 16.33 8.1643 16.33C10.5078 16.33 12.6208 15.3427 14.1098 13.7613C12.4845 11.6965 10.1761 10.1288 7.49338 9.35723C6.67698 11.4629 6.2012 13.7215 6.12757 16.0739ZM14.8969 12.7858C15.8005 11.4718 16.3293 9.88016 16.3293 8.165C16.3293 8.02119 16.3256 7.87824 16.3182 7.73626C15.4488 7.89372 14.5515 7.97608 13.6344 7.97608C11.8389 7.97608 10.12 7.66043 8.53731 7.0839C8.33792 7.4571 8.14977 7.83648 7.97327 8.22164C10.7455 9.0492 13.1519 10.6609 14.8969 12.7858ZM16.1634 6.51947C15.7389 4.44499 14.5277 2.65708 12.8551 1.48108C11.4192 2.82433 10.1729 4.34473 9.15604 6.00404C10.5505 6.48713 12.0589 6.75133 13.6344 6.75133C14.5004 6.75133 15.346 6.67152 16.1634 6.51947ZM11.7599 0.832253C10.675 0.299297 9.4546 0 8.1643 0C6.27362 0 4.53304 0.642623 3.14905 1.72136C4.39853 3.34118 6.06515 4.66232 8.00312 5.54348C9.03743 3.81982 10.3032 2.23688 11.7599 0.832253ZM2.23946 2.54684C0.87291 3.98751 0.0262453 5.92618 -6.43421e-05 8.06238C1.1797 7.76185 2.41982 7.60173 3.69861 7.60173C4.7518 7.60173 5.77866 7.71034 6.76712 7.91649C6.96395 7.47512 7.17512 7.04087 7.40007 6.61427C5.35434 5.66603 3.58482 4.26501 2.23946 2.54684Z"
                      fill="currentColor"
+                     clipRule="evenodd"
+                     d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
                   />
                </svg>
             </span>

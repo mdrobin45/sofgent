@@ -93,7 +93,7 @@ export default function AboutSofgent() {
                      />
                   </div>
 
-                  <div className="bg-brand p-[30px] rounded-2xl sm:absolute z-20 bottom-8 w-[295px] left-8 mt-5 sm:mt-0 max-w-full">
+                  <div className="bg-brand p-[30px] rounded-2xl sm:absolute z-20 bottom-8 w-full md:w-[295px] left-8 mt-5 sm:mt-0 max-w-full">
                      <Image
                         width={100}
                         height={100}

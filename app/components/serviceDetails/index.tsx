@@ -9,9 +9,11 @@ export default function ServiceDetailsInfo({ slug }: { slug: string }) {
 
    return (
       <section className="pt-16 md:pt-[130px] service-details-page">
-         <div className="w-full mx-auto theme-container">
+         <div className="w-full mx-auto theme-container pb-16 md:pb-24">
             <div className="grid grid-cols-8 lg:grid-cols-12 gap-[30px]">
-               <div data-aos="fade-up" className="col-span-8">
+               <div
+                  data-aos="fade-up"
+                  className="col-span-8 sticky top-[30px] self-start">
                   {service ? (
                      <Markdown>{service.content}</Markdown>
                   ) : (
@@ -20,7 +22,6 @@ export default function ServiceDetailsInfo({ slug }: { slug: string }) {
                </div>
                <ServiceDetailsSidebar slug={slug} />
             </div>
-            <hr className="bg-purple/10 mt-[120px]" />
          </div>
       </section>
    );

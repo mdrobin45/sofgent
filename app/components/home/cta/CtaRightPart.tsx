@@ -17,8 +17,9 @@ export default function CtaRightPart() {
          };
       }
    }, []);
+   // Es LInk return the html
    return (
-      <div className="w-2/4">
+      <div className="md:w-2/4 w-full pt-10 md:pt-0">
          <div
             ref={sceneRef}
             id="consaltaion-mouse-move-anim"

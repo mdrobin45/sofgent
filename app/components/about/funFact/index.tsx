@@ -4,7 +4,7 @@ export default function AboutFunFact() {
    return (
       <section className="w-full pb-16 md:pb-[130px]">
          <div className="mx-auto theme-container">
-            <div className="grid grid-cols-3 md:grid-cols-4 gap-[30px] h3-about-card relative overflow-hidden w-full">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-[30px] h3-about-card relative overflow-hidden w-full">
                <CounterUpCard
                   number={15}
                   title="Project Complete"

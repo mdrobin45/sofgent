@@ -1,5 +1,6 @@
 import BreadCrumb from "@/app/components/common/BreadCrumb";
 import ServiceDetailsInfo from "@/app/components/serviceDetails";
+import { CtaNoSSR } from "@/app/page";
 import getServicesMeta from "@/app/utils/getServicesMeta";
 
 export async function generateStaticParams() {
@@ -23,6 +24,7 @@ export default function ServiceDetail({
             to="/services"
          />
          <ServiceDetailsInfo slug={params.slug} />
+         <CtaNoSSR />
       </section>
    );
 }

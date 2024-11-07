@@ -3,7 +3,7 @@ icon: "/icons/services/image-processing.svg"
 title: Image Processing
 description: Optimizing images for web and mobile applications.
 ---
-
+![Image Processing](/images/services/image-processing.webp)
 Image Processing Services are platforms that help users manage, edit, and optimize images for web and mobile applications. These services are valuable for photographers, graphic designers, web developers, and content creators who handle large volumes of images efficiently.
 
 At Sofgen, there is a dedicated team of UI/UX and graphic designers focused on developing bulk image platforms with features such as:
