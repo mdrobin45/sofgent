@@ -68,24 +68,22 @@ export default function Hero() {
                            </svg>
                         </span>
                         <span className="text-sm font-semibold pointer-events-auto md:text-20 text-brand">
-                           SofGent digital agency
+                        Welcome to Sofgen
                         </span>
                      </div>
-                     <h2 className="text-4xl md:text-65 text-main-black font-semibold mb-[35px] pointer-events-auto">
-                        <span>We are Modern &</span> <br />
-                        effective
+                     <h2 className="text-4xl md:text-[56px] leading-normal text-main-black font-semibold mb-[35px] pointer-events-auto">
+                        <span>Crafting High </span> <br />
+                        <span>Performance </span>
                         <span className="relative inline-block px-3 font-bold text-white uppercase">
-                           <span className="relative z-10">digital</span>
+                           <span className="relative z-10">SaaS</span>
                            <span className="absolute top-0 left-0 block w-full h-full bg-gradient-to-r from-brand"></span>
                         </span>
                         <br />
-                        <span className="italic"> marketing agency </span>
+                        <span className="italic"> Solutions for Tomorrow </span>
                      </h2>
                      <div className="px-6 py-[14px] bg-white border-l-2 border-brand mb-[35px] pointer-events-auto xl:w-full md:w-[500px]">
                         <p className="text-ptwo text-paragraph">
-                           Digital marketing agency, we craft compelling
-                           narratives & leverage cutting-edge technologies to
-                           propel brands towards
+                        At Sofgen, we don’t just develop software; we create powerful SaaS solutions that adapt, integrate, and grow with your business. Our approach combines cutting-edge technology, speed, and high-quality output, ensuring seamless solutions that elevate operational efficiency.
                         </p>
                      </div>
                      <div className="flex space-x-[30px] items-center pointer-events-auto">

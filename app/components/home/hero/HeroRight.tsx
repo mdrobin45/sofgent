@@ -39,22 +39,22 @@ export default function HeroRight() {
                   className="relative z-10 w-full h-full pointer-events-auto">
                   <div data-depth="0.20" className="layer">
                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full">
-                        SEO & Marketing
+                        Full SaaS Development
                      </span>
                   </div>
                   <div data-depth="0.30" className="layer">
                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none">
-                        Website Optimizations
+                        Advanced AI Solutions
                      </span>
                   </div>
                   <div data-depth="0.40" className="layer h-fit">
                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full h-fit">
-                        Marketing & Growth
+                        Software Development
                      </span>
                   </div>
                   <div data-depth="0.50" className="layer h-fit">
                      <span className="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-brand 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit">
-                        Keywords Research
+                        Mastery in Integrations
                      </span>
                   </div>
                </div>

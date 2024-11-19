@@ -3,7 +3,7 @@ import SectionTag from "../../common/SectionTag";
 import AboutCheckList from "./AboutCheckList";
 import AboutThumbnail from "./AboutThumbnail";
 
-const checkList = ["Transform & businesses","Unified product catalog","All-in-one SaaS solution","Wide largest companies"]
+const checkList = ["Full SaaS Development","Advanced AI Solutions","Mastery in Integrations","Quick Delivery"]
 export default function About() {
    return (
       <section className="pt-28" id="home-one-about">
@@ -13,14 +13,11 @@ export default function About() {
                   <AboutThumbnail />
                   <div className="about-article-area">
                      <SectionTag tag="About Company"/>
-                     <h2 className="md:text-48 mt-6 text-34 font-semibold text-main-black mb-[50px] md:w-[80%] w-full xl:w-full">
-                        Digital Transforming Brands, Elevating Reach Crafting
-                        Success
+                     <h2 className="md:text-48 mt-6 text-34 font-semibold text-main-black mb-[30px] md:w-[80%] w-full xl:w-full">
+                     Innovating the Future, Your Partner in SaaS Excellence
                      </h2>
                      <p className="text-paragraph mb-[50px]">
-                        Defined by digital dynamism, our digital marketing
-                        agency emerges as a beacon of innovation and strategic
-                        prowess.
+                     In todays rapidly evolving digital landscape, businesses require tailored software solutions to remain competitive. Sofgen stands out by offering a wide range of services designed to meet the unique needs of clients across various industries. From software development to system integration and image processing, Sofgen employs teams of skilled professionals dedicated to delivering high-quality results. This document outlines the comprehensive services offered by Sofgen, emphasizing the processes and expertise involved.
                      </p>
                      <ul className="flex flex-wrap md:gap-[30px] gap-5 mb-[50px]">
                         {

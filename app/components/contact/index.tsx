@@ -1,8 +1,73 @@
+"use client";
+import { useState } from "react";
 import { BiEnvelope, BiPhone } from "react-icons/bi";
-import Button from "../common/Button";
 import SocialFollow from "./SocialFollow";
 
+interface FormData {
+   name: string;
+   email: string;
+   phone: string;
+   subject: string;
+   message: string;
+}
+// Form validation
+const validateField = (name: keyof FormData, value: string) => {
+   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+   const phoneRegex = /^\d{10}$/;  // Validates 10-digit phone numbers
+ 
+   switch (name) {
+     case 'name':
+       return value.length < 2 ? 'Name must be at least 2 characters' : '';
+     case 'email':
+       return !value ? 'Email is required' : 
+              !emailRegex.test(value) ? 'Invalid email format' : '';
+     case 'phone':
+       return !value ? 'Phone is required' : 
+              !phoneRegex.test(value) ? 'Phone must be 10 digits' : '';
+     case 'subject':
+       return value.length < 3 ? 'Subject must be at least 3 characters' : '';
+     case 'message':
+       return value.length < 10 ? 'Message must be at least 10 characters' : '';
+     default:
+       return '';
+   }
+ };
+ 
 export default function ContactForm() {
+   const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+   });
+   const [errors, setErrors] = useState({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+   });
+
+   const handleChange = (
+      e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+   ) => {
+      const field = e.target.name as keyof FormData;
+      const value = e.target.value;
+      setFormData((prev) => ({ ...prev, [field]: value }));
+      const err = validateField(field, value);
+      setErrors((prev) => ({ ...prev, [field]: err }));
+   };
+
+   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      if (errors) {
+         return;
+      }
+      console.log(formData);
+   };
+   console.log(errors);
+
    return (
       <section className="py-16 md:py-[130px]">
          <div className="theme-container w-full mx-auto grid grid-cols-7 lg:grid-cols-12 gap-y-16 lg:gap-y-0 lg:gap-x-[70px]">
@@ -18,12 +83,16 @@ export default function ContactForm() {
                <div className="grid grid-cols-1 sm:grid-cols-2 gap-[70px] mt-10">
                   <div className="col-span-1">
                      <h2 className="flex gap-2.5 items-center">
-                        <BiEnvelope className="text-2xl text-brand"/> <a href="mailto:support@sofgent.com">support@sofgent.com</a>
+                        <BiEnvelope className="text-2xl text-brand" />{" "}
+                        <a href="mailto:support@sofgent.com">
+                           support@sofgent.com
+                        </a>
                      </h2>
                   </div>
                   <div className="col-span-1">
                      <h2 className="flex gap-2.5 items-center">
-                        <BiPhone className="text-2xl text-brand"/> <a href="tel:0123456789">0123456789</a>
+                        <BiPhone className="text-2xl text-brand" />{" "}
+                        <a href="tel:0123456789">0123456789</a>
                      </h2>
                   </div>
                </div>
@@ -42,35 +111,74 @@ export default function ContactForm() {
                      are marked *
                   </p>
                   <form
-                     action=""
+                     onSubmit={handleSubmit}
                      className="grid grid-cols-6 md:grid-cols-12 gap-[30px]">
-                     <input
-                        type="text"
-                        placeholder="Full Name"
-                        className="col-span-6 h-[30px] focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
+                     <div className="col-span-6">
+                        <input
+                           onChange={handleChange}
+                           name="name"
+                           type="text"
+                           placeholder="Full Name"
+                        className="h-[30px] w-full focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
                      />
-                     <input
+                     {errors.name && (
+                        <p className="text-red-500">{errors.name}</p>
+                        )}
+                     </div>
+                     <div className="col-span-6">
+                        <input
+                           onChange={handleChange}
+                        name="email"
                         type="email"
                         placeholder="Email"
-                        className="col-span-6 h-[30px] focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
+                        className="h-[30px] w-full focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
                      />
-                     <input
+                     {errors.email && (
+                           <p className="text-red-500">{errors.email}</p>
+                        )}
+                     </div>
+                     <div className="col-span-6">
+                        <input
+                           onChange={handleChange}
+                        name="phone"
                         type="text"
                         placeholder="Phone Number"
-                        className="col-span-6 h-[30px] focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
+                        className="h-[30px] w-full focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
                      />
+                     {errors.phone && (
+                        <p className="text-red-500">{errors.phone}</p>
+                     )}
+                     </div>
+                     <div className="col-span-6">
                      <input
+                        onChange={handleChange}
+                        name="subject"
                         type="email"
                         placeholder="Subject"
-                        className="col-span-6 h-[30px] focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
+                        className="h-[30px] w-full focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent"
                      />
-                     <textarea
-                        name=""
-                        placeholder="Comments"
-                        className="col-span-6 md:col-span-12 focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent h-[83px]"></textarea>
-
+                     {errors.subject && (
+                        <p className="text-red-500">{errors.subject}</p>
+                        )}
+                     </div>
+                     <div className="col-span-12">
+                        <textarea
+                        onChange={handleChange}
+                        name="message"
+                           placeholder="Comments"
+                           className="w-full focus:outline-none border-b border-brand/10 focus:border-brand bg-transparent h-[83px]"
+                        ></textarea>
+                        {errors.message && (
+                           <p className="text-red-500">{errors.message}</p>
+                        )}
+                     </div>
                      <div className="col-span-6 md:col-span-12">
-                        <Button btnText="Send Message" />
+                        <button
+                           type="submit"
+                           className="rounded-full inline-block px-5 py-2.5 overflow-hidden group bg-brand relative hover:bg-gradient-to-r hover:from-[#5ca979] text-white transition-all ease-out duration-300">
+                           <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-72 ease"></span>
+                           <span className="relative">Send Message</span>
+                        </button>
                      </div>
                   </form>
                </div>
