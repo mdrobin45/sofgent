@@ -7,24 +7,24 @@ import SectionTag from "../../common/SectionTag";
 const processList = [
    {
       serial: "01",
-      title: "Discover & Analysis",
+      title: "Full SaaS Development",
       description:
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, libero vel ultricies tristique, felis risus semper justo, et luctus urna lectus non massa.",
+         "From initial MVPs to scalable production, we design and deploy secure, cloud-based solutions with end-to-end payment integrations to meet any business need.",
    },
    {
       serial: "02",
-      title: "Strategy Development",
+      title: "Advanced AI Solutions",
       description:
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, libero vel ultricies tristique, felis risus semper justo, et luctus urna lectus non massa.",
+         "Integrating AI models for transcribing, translating, and data analysis, we specialize in transforming unstructured data like audio, video, PDFs, and text files into actionable insights.",
    },
    {
       serial: "03",
-      title: "Launch & Execution",
+      title: "Mastery in Integrations",
       description:
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, libero vel ultricies tristique, felis risus semper justo, et luctus urna lectus non massa.",
+         "With extensive experience in systems like Jira, Zoho, and Stripe, we connect the dots across platforms, creating unified workflows that streamline your operations.",
    },
 ];
-export default function WorkProcess() {
+export default function Expertise() {
    return (
       <section id="working-process">
          <div className="working-process-section-wrapper w-full xl:pb-[130px] pb-[60px]">
@@ -32,9 +32,9 @@ export default function WorkProcess() {
                <div className="w-full grid-cols-12 xl:grid">
                   <div className="col-span-5">
                      <div className="title-area">
-                        <SectionTag tag="Working Process"/>
+                        <SectionTag tag="Our Expertise"/>
                         <h2 className="md:text-48 mt-6 text-34 font-semibold text-main-black mb-[50px]">
-                           Efficiency in Motion Navigating the Working Process
+                           Our Expertise in Software Development
                         </h2>
                         <div
                            id="progress-wrapper"
