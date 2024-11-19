@@ -9,7 +9,7 @@ const processList = [
       serial: "01",
       title: "Full SaaS Development",
       description:
-         "From initial MVPs to scalable production, we design and deploy secure, cloud-based solutions with end-to-end payment integrations to meet any business need.",
+         "From initial MVPs to scalable production, we design and deploy secure, cloud-based solutions with end-to-end payment integrations to meet any business need.",
    },
    {
       serial: "02",
