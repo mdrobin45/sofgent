@@ -3,6 +3,7 @@ import FunFact from "@/app/components/home/funFact";
 import Hero from "@components/home/hero";
 import dynamic from "next/dynamic";
 import Expertise from "./components/home/expertise";
+import WhyChooseUs from "./components/home/whyChooseUs";
 
 export const CtaNoSSR = dynamic(() => import("@components/home/cta"), {
    ssr: false,
@@ -16,6 +17,7 @@ export default function Home() {
          <Hero />
          <About />
          <Expertise />
+         <WhyChooseUs />
          <FunFact />
          <ServiceNoSSR />
          <CtaNoSSR />
