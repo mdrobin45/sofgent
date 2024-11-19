@@ -1,4 +1,4 @@
-import ServiceHero from "@assets/images/services/service-hero.webp";
+import ServiceHero from "@assets/images/services/service-art.svg";
 import Image from "next/image";
 import Button from "../../common/Button";
 
@@ -31,8 +31,8 @@ export default function AboutService() {
                </div>
                <div className="relative flex flex-col justify-end w-full col-span-7 overflow-hidden sm:flex-row">
                   <Image
-                     width={630}
-                     height={500}
+                     width={700}
+                     height={700}
                      src={ServiceHero}
                      alt="Service Hero Image"
                      className="mt-9 rounded-2xl"

@@ -1,5 +1,5 @@
 import aboutCardShape from "@assets/images/about/about-card-shape.webp";
-import aboutRightImage from "@assets/images/about/about-right.webp";
+import aboutRightImage from "@assets/images/about/about.svg";
 import Image from "next/image";
 import SectionTag from "../../common/SectionTag";
 
@@ -12,13 +12,10 @@ export default function AboutSofgent() {
                   <div className="">
                      <SectionTag tag="About Company" />
                      <h1 className="text-24 md:text-48 font-semibold text-main-black mt-2.5 md:mt-5">
-                        Digital Transforming Brands, Elevating Reach Crafting
-                        Success
+                     Innovating the Future, Your Partner in SaaS Excellence
                      </h1>
                      <p className="mt-5 md:mt-10 text-paragraph">
-                        Defined by digital dynamism, our digital marketing
-                        agency emerges as a beacon of innovation and strategic
-                        prowess.
+                     In today&apos;s rapidly evolving digital landscape, businesses require tailored software solutions to remain competitive. Sofgen stands out by offering a wide range of services designed to meet the unique needs of clients across various industries. From software development to system integration and image processing, Sofgen employs teams of skilled professionals dedicated to delivering high-quality results. This document outlines the comprehensive services offered by Sofgen, emphasizing the processes and expertise involved. 
                      </p>
                      <hr className="mt-10 border-brand/10" />
                      <div className="w-full grid grid-cols-1 sm:grid-cols-2 mt-[50px] gap-8 md:gap-[70px]">
@@ -44,8 +41,7 @@ export default function AboutSofgent() {
                               Expert Team Member
                            </h1>
                            <p className="mt-3 text-paragraph">
-                              An SEO Optimization agency is company that
-                              specializes
+                              Our team brings extensive development experience
                            </p>
                         </div>
                         <div
@@ -70,11 +66,11 @@ export default function AboutSofgent() {
                               />
                            </svg>
                            <h1 className="mt-4 font-semibold text-18 text-main-black">
-                              Custom SEO Support
+                              Custom Software Development
                            </h1>
                            <p className="mt-3 text-paragraph">
-                              These agencies typically offer range of services
-                              aimed
+                              We develop custom software solutions tailored to your
+                              needs
                            </p>
                         </div>
                      </div>
@@ -85,8 +81,8 @@ export default function AboutSofgent() {
                <div className="relative flex flex-col items-center justify-end col-span-6 sm:flex-row">
                   <div>
                      <Image
-                        width={550}
-                        height={550}
+                        width={600}
+                        height={600}
                         src={aboutRightImage}
                         alt="img"
                         className="rounded-2xl"

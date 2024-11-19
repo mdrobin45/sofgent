@@ -22,10 +22,10 @@ export default function Cta({className}:{className?:string}) {
                   <div className="md:w-2/4 w-full">
                     <SectionTag  tag="Get Consultation"/>
                      <h2 className="md:text-48 mt-6 text-34 font-semibold mb-[32px]">
-                        Get your free digital marketing audit
+                        Get your free software development consultation
                      </h2>
                      <p className="text-paragraph mb-[45px]">
-                        We’ve 25+ years of experience in digital marketing
+                        Let&apos;s build innovative software solutions together
                      </p>
 
                      <Button btnText="Get Consultation" href="/contact" />

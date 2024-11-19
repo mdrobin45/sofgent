@@ -1,6 +1,5 @@
 "use client";
-import ctaShape from "@assets/images/home/cta-bg-transparent.png";
-import ctaImg1 from "@assets/images/home/cta-man.webp";
+import ctaImg1 from "@assets/images/home/cta-image.svg";
 import Image from "next/image";
 import Parallax from "parallax-js";
 import { useEffect, useRef } from "react";
@@ -24,15 +23,6 @@ export default function CtaRightPart() {
             ref={sceneRef}
             id="consaltaion-mouse-move-anim"
             className="relative justify-end w-full">
-            <div className="mr-10 moving-h2-hero-main-img">
-               <Image
-                  className="ml-auto"
-                  width={300}
-                  height={300}
-                  src={ctaShape}
-                  alt="CTA BG Shape"
-               />
-            </div>
             <div data-depth="0.40">
                <Image
                   className="rounded-full"

@@ -1,5 +1,5 @@
 "use client";
-import aboutThumb from "@assets/images/home/about -main-thumb.webp";
+import aboutThumb from "@assets/images/about/about.svg";
 import aboutShape from "@assets/images/home/about-shapeBg.png";
 import Image from "next/image";
 import Parallax from "parallax-js";
@@ -39,10 +39,10 @@ export default function AboutThumbnail() {
             </div>
             <div
                data-aos="fade-right"
-               className="left-0 w-full thumbnil-main md:absolute -bottom-16">
+               className="left-0 w-full thumbnil-main md:absolute -bottom-7">
                <div className="flex justify-center w-full">
                   <Image
-                     width={450}
+                     width={650}
                      height={600}
                      src={aboutThumb}
                      alt="About main image"
