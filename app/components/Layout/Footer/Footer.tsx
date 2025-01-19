@@ -216,11 +216,11 @@ export default function Footer() {
                   </div>
                   <ul className="flex items-center sm:space-x-6">
                      <li className=" hover:text-white hover:underline common-transition text-white/50">
-                        <a href="#">Privacy Policy</a>
+                        <Link href="privacy-policy">Privacy Policy</Link>
                      </li>
                      <li className=" text-white/50">|</li>
                      <li className=" hover:text-white hover:underline common-transition text-white/50">
-                        <a href="#">Terms & Conditions</a>
+                        <Link href="terms-conditions">Terms & Conditions</Link>
                      </li>
                   </ul>
                </div>
