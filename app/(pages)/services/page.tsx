@@ -9,7 +9,7 @@ const FaqNoSSR = dynamic(() => import("@/app/components/services/faq"), {
 export default function Services() {
    return (
       <section>
-         <BreadCrumb pageTitle="Services" currentPage="Services" to="/" />
+         <BreadCrumb pageTitle="Services" currentPage="Services" to="/services" />
          <AboutService />
          <ServiceMain />
          <FaqNoSSR />
