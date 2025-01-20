@@ -2,7 +2,7 @@
 icon: "/icons/services/software-testing.svg"
 title: Software Testing
 description: Validates functionality, reliability, and security.
-order: 3
+order: 6
 ---
 ![Software Testing](/images/services/software-testing.webp)
 Software Testing Services involve processes designed to evaluate the functionality, performance, security, and usability of software applications before delivering them to customers. The primary goal is to identify defects or issues before the software is deployed, ensuring it meets specified requirements and functions correctly.
