@@ -1,4 +1,4 @@
-import { FacebookIcon, LinkedinIcon, TwitterIcon } from "@/app/utils/SVGIcons";
+import { FacebookIcon, LinkedinIcon } from "@/app/utils/SVGIcons";
 import logo from "@assets/images/sofgent-logo-white.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,20 +7,20 @@ import Copyright from "./Copyright";
 // Services List
 const serviceList = [
    {
-      title: "Keyword Research",
-      url: "/project-details",
+      title: "Custom Software Development",
+      url: "/custom-software-development",
    },
    {
-      title: "Website Optimization",
-      url: "/project-details",
+      title: "DevOps Services with Continuous Integration",
+      url: "/devops-deployment-continuous-delivery",
    },
    {
-      title: "Content Marketing",
-      url: "/project-details",
+      title: "AI Advanced Services",
+      url: "/advanced-ai-solutions",
    },
    {
-      title: "Email Marketing",
-      url: "/project-details",
+      title: "Custom Saas Solutions ",
+      url: "/saas-micro-saas-solutions",
    },
 ];
 
@@ -48,17 +48,12 @@ const quickLinks = [
 const socialMediaList = [
    {
       name: "Facebook",
-      link: "#",
+      link: "https://www.facebook.com/people/Sofgent/61564357926545/",
       icon: <FacebookIcon />,
    },
    {
-      name: "Twitter",
-      link: "#",
-      icon: <TwitterIcon />,
-   },
-   {
       name: "Linkedin",
-      link: "#",
+      link: "https://www.linkedin.com/company/sofgent/",
       icon: <LinkedinIcon />,
    },
 ];
@@ -73,8 +68,12 @@ export default function Footer() {
                   <Image width={200} height={100} src={logo} alt="logo" />
                </Link>
                <p className="max-w-[300px] text-white/50 mt-[30px] mb-6">
-                  SEO agencies typically work businesses of all sizes across
-                  various industries to help them achieve their online
+                  Sofgent is your trusted partner for custom software
+                  development, specializing in tailored solutions that drive
+                  business growth and efficiency. From scalable platforms to
+                  seamless integrations, we deliver innovative software designed
+                  to meet your unique needs. Sofgent: Innovating Software.
+                  Empowering Businesses.
                </p>
 
                {/* Social Media */}
@@ -160,7 +159,8 @@ export default function Footer() {
                <h1 className="font-semibold text-white text-18">Address</h1>
                <div className="flex gap-2 items-center relative group font-medium text-white/50 hover:text-white hover:underline transition-all duration-300 mt-3.5">
                   <span className="transition-all duration-300">
-                     House No. 12, Road No. 12, Block-A, Dhaka, Bangladesh
+                     House - 69 , Road - 06 , Block - A , Mirpur - 12 , Dhaka -
+                     1216
                   </span>
                </div>
                <h1 className="font-semibold text-white text-18">Contact</h1>
@@ -173,7 +173,7 @@ export default function Footer() {
                      </a>{" "}
                      <br />
                      <a className="hover:text-white" href="tel:+88045685299">
-                        +880 456 852 99
+                        01537740365
                      </a>
                   </span>
                </div>

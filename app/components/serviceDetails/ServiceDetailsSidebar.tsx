@@ -1,7 +1,6 @@
 import getServicesMeta from "@/app/utils/getServicesMeta";
 import { ServiceCatIcon, SupportIcon } from "@/app/utils/SVGIcons";
 import Link from "next/link";
-import Button from "../common/Button";
 
 export default function ServiceDetailsSidebar({ slug }: { slug: string }) {
    const services = getServicesMeta("/app/data/services");
@@ -55,23 +54,32 @@ export default function ServiceDetailsSidebar({ slug }: { slug: string }) {
             </div>
             <hr className="bg-brand/10" />
             <div className="pt-10 flex flex-col px-10 gap-[30px]">
-               <input
-                  placeholder="Full Name"
-                  id="fullName"
-                  type="text"
-                  className="placeholder:text-paragraph w-full h-[56px] bg-white border border-brandBorder rounded-md focus:border-brand focus:outline-none focus:right-0 px-[25px]"
-               />
-               <input
-                  placeholder="Enter your email..."
-                  id="eOne"
-                  type="text"
-                  className="placeholder:text-paragraph w-full h-[56px] bg-white border border-brandBorder rounded-md focus:border-brand focus:outline-none focus:right-0 px-[25px]"
-               />
-               <textarea
-                  placeholder="Your message..."
-                  id="message"
-                  className="placeholder:text-paragraph w-full bg-white border border-brandBorder rounded-md focus:border-brand focus:outline-none focus:right-0 px-[25px] py-5 h-[140px]"></textarea>
-               <Button className="text-center" btnText="Get a Quote" />
+               <form action="mailer.php" method="POST">
+                  <input
+                     placeholder="Full Name"
+                     id="fullName"
+                     type="text"
+                     name="name"
+                     className="placeholder:text-paragraph my-2 w-full h-[56px] bg-white border border-brandBorder rounded-md focus:border-brand focus:outline-none focus:right-0 px-[25px]"
+                  />
+                  <input
+                     placeholder="Enter your email..."
+                     id="eOne"
+                     type="text"
+                     name="email"
+                     className="placeholder:text-paragraph my-2 w-full h-[56px] bg-white border border-brandBorder rounded-md focus:border-brand focus:outline-none focus:right-0 px-[25px]"
+                  />
+                  <textarea
+                     placeholder="Your message..."
+                     id="message"
+                     name="message"
+                     className="placeholder:text-paragraph w-full bg-white border border-brandBorder rounded-md focus:border-brand focus:outline-none focus:right-0 px-[25px] py-5 h-[140px]"></textarea>
+                  <button
+                     type="submit"
+                     className="rounded-full w-full inline-block px-5 py-2.5 overflow-hidden group bg-brand relative hover:bg-gradient-to-r hover:from-[#5ca979] text-white transition-all ease-out duration-300">
+                     Get a Quote
+                  </button>
+               </form>
             </div>
          </div>
       </div>

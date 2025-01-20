@@ -5,31 +5,67 @@ import LottieLines from "../../common/LottieLine";
 // Faq Items
 const faqItems = [
    {
-      question: "What services does Sofgent provide?",
-      answer:
-         "Sofgent specializes in custom software development, web and mobile app development, cloud solutions, and IT consulting services.",
+     "question": "Why should I outsource custom software development to SoftGen?",
+     "answer": "Outsourcing to SoftGen allows you to leverage a team of experienced developers, cutting-edge technology, and proven processes. We focus on delivering high-quality, scalable software solutions tailored to your specific business needs, all while helping you save time and reduce costs."
    },
    {
-      question: "How does Sofgent ensure project quality?",
-      answer:
-         "We follow industry best practices such as Agile methodology, continuous testing, and client feedback loops to ensure high-quality project delivery.",
+     "question": "How do you ensure the security of my project and data?",
+     "answer": "We take security very seriously. From NDA agreements to secure coding practices and data encryption, every step of our process ensures your intellectual property and sensitive information remain protected. Our systems comply with industry standards like GDPR and ISO for added peace of mind."
    },
    {
-      question: "Can Sofgent work with startups?",
-      answer:
-         "Yes, Sofgent has extensive experience working with startups, helping them develop scalable software solutions that grow with their business.",
+     "question": "What industries do you specialize in for custom software development?",
+     "answer": "SoftGen has successfully delivered solutions for a wide range of industries, including Healthcare, Finance and FinTech, E-commerce, Education and eLearning, Logistics and Supply Chain, and Real Estate. If your industry isn’t listed, we’re confident in our ability to adapt and meet your specific needs."
    },
    {
-      question: "What is the typical project timeline with Sofgent?",
-      answer:
-         "Project timelines vary based on scope and complexity, but we typically follow a structured approach that includes planning, development, testing, and deployment within 3 to 6 months.",
+     "question": "How will I stay updated on the progress of my project?",
+     "answer": "Transparency is a cornerstone of our process. We keep you informed through regular progress reports, weekly or bi-weekly meetings (as per your preference), and direct communication channels via email, Slack, or other tools. Our project management ensures you’re involved and informed every step of the way."
    },
    {
-      question: "How can I get a quote for my project?",
-      answer:
-         "You can get a customized quote by contacting us through our website, providing your project details, and our team will get back to you within 24 hours.",
+     "question": "What technologies do you use in software development?",
+     "answer": "We leverage a wide range of modern technologies, including Angular, React, Vue.js (Frontend); ASP.NET Core, .NET Core API, Spring Boot, Node.js (Backend); MySQL, PostgreSQL, MongoDB (Database); and Kubernetes, GitHub Actions, Azure DevOps (DevOps). Our team continuously updates its knowledge base to stay at the forefront of technological advancements."
    },
-];
+   {
+     "question": "Can you integrate third-party services and APIs into my software?",
+     "answer": "Yes, we specialize in integrating third-party tools and APIs seamlessly into your software. Whether it’s payment gateways like Stripe, CRM systems like Zoho, or AI-powered tools like ChatGPT, we ensure smooth functionality."
+   },
+   {
+     "question": "How do you manage time zone differences?",
+     "answer": "Our team is experienced in working across time zones and ensures flexibility to match your working hours. We schedule meetings and updates at times that suit your convenience to ensure smooth collaboration."
+   },
+   {
+     "question": "What is your typical project timeline?",
+     "answer": "Timelines depend on the complexity and scope of the project. However, we follow an agile approach to deliver an MVP (Minimum Viable Product) quickly, ensuring you see results early while continuing iterative improvements."
+   },
+   {
+     "question": "What is the cost of outsourcing a custom software development project?",
+     "answer": "The cost varies based on project complexity, features, and timelines. We provide transparent, flexible pricing models, including fixed-cost, time-and-materials, or dedicated team models, tailored to your budget and goals."
+   },
+   {
+     "question": "Will I own the code and intellectual property?",
+     "answer": "Yes, once the project is complete and all payments are made, you own 100% of the code, designs, and intellectual property. We transfer full ownership rights to you, ensuring your business retains complete control."
+   },
+   {
+     "question": "What happens after the project is delivered?",
+     "answer": "We provide comprehensive post-launch support, including bug fixes and updates, feature enhancements, and maintenance and monitoring services. You can choose from flexible support packages to keep your software running smoothly."
+   },
+   {
+     "question": "How do I start my project with SoftGen?",
+     "answer": "Getting started is simple! Contact us through our website or email with your requirements, schedule a free consultation to discuss your goals, receive a tailored proposal with timelines and pricing, and kick off your project with our dedicated team!"
+   },
+   {
+     "question": "Can I scale up or down my outsourced team?",
+     "answer": "Absolutely. Our flexible engagement models allow you to scale your team based on project requirements, ensuring you only pay for the resources you need."
+   },
+   {
+     "question": "How do you handle project delays or unexpected challenges?",
+     "answer": "We mitigate risks with thorough planning and agile methodologies. If challenges arise, we proactively communicate, adapt our strategies, and work diligently to stay on track without compromising quality."
+   },
+   {
+     "question": "Why choose SoftGen over other outsourcing agencies?",
+     "answer": "With SoftGen, you gain access to a proven track record of delivering successful projects, expertise in modern technologies and industry best practices, transparent communication and customer-centric processes, and tailored solutions designed to align with your unique business goals."
+   }
+ ]
+ 
 
 export default function Faq() {
    const [activeFaq, setActiveFaq] = useState(0);
