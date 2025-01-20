@@ -4,6 +4,7 @@ import ServiceCard from "./ServiceCard";
 
 export default function Service() {
    const services = getServicesMeta("/app/data/services");
+   services.sort((a, b) => { return a.order - b.order });
    return (
       <section id="service">
          <div className="w-full service-section-wrapper xl:pb-[130px] pb-[60px] relative">

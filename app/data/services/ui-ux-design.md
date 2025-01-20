@@ -2,6 +2,7 @@
 icon: "/icons/services/ui-ux-design.svg"
 title: UI/UX Design
 description: UI Design enhances visual product elements.
+order: 4
 ---
 ![UI/UX Design](/images/services/ui-ux-design.webp)
 UI Design (User Interface) focuses on the visual aspects of a product. This includes arranging elements like buttons, menus, icons, text, and colors to create an intuitive and appealing product interface that reflects the brand’s identity. For example, designing the checkout page of an app with clear buttons, easy-to-read fonts, and attractive colors.

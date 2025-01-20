@@ -2,6 +2,7 @@
 icon: "/icons/services/system-maintainance.svg"
 title: System Maintenance
 description: Ensuring a system is running smoothly and efficiently.
+order: 8
 ---
 ![System Maintenance](/images/services/system-maintenance.webp)
 System Maintenance encompasses regular activities performed to keep computer systems or software applications running smoothly and efficiently after delivery. This includes tasks like updating software, fixing bugs, monitoring performance, and ensuring security. System maintenance can be either proactive (preventive) or reactive (corrective) to ensure that systems are up-to-date and functioning correctly.

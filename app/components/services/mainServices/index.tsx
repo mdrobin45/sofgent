@@ -3,6 +3,7 @@ import ServiceCard from "../../home/services/ServiceCard";
 
 export default function ServiceMain() {
    const services = getServicesMeta("/app/data/services");
+   services.sort((a, b) => { return a.order - b.order });
    return (
       <section id="service" className="w-full theme-container mx-auto">
          <div className="mx-auto w-full xl:py-[130px] py-[60px] xl:px-[80px] md:px-10 px-0 bg-gray rounded-[10px] border border-brandBorder">

@@ -17,6 +17,7 @@ export default function getServicesMeta(basePath: string) {
          icon: matterResult.data.icon,
          slug: filename.replace(".md", ""),
          content: matterResult.content,
+         order:matterResult.data.order
       };
    });
    return servicesMeta;

@@ -2,6 +2,7 @@
 icon: "/icons/services/dev-ops.svg"
 title: DevOps
 description: Streamlining software releases and operations.
+order: 2
 ---
 ![DevOps Process](/images/services/dev-ops.webp)
 

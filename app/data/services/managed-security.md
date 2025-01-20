@@ -2,6 +2,7 @@
 icon: "/icons/services/managed-security.svg"
 title: Managed Security
 description: Continuous monitoring for enhanced security.
+order: 6
 ---
 ![Managed Security](/images/services/managed-security.webp)
 Managed Security Services (MSS) involve outsourcing cybersecurity needs to a third-party provider, known as a Managed Security Service Provider (MSSP). These services help protect computers, networks, and data from cyber threats through various security measures. Essentially, MSSPs manage cybersecurity tasks, allowing businesses to concentrate on their core activities without security concerns.
