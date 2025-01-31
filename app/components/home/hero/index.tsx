@@ -84,7 +84,7 @@ export default function Hero() {
               </h2>
               <div className="px-6 py-[14px] bg-white border-l-2 border-brand mb-[35px] pointer-events-auto xl:w-full md:w-[500px]">
                 <p className="text-ptwo text-paragraph">
-                  At Sofgen, we don’t just develop software; we create powerful
+                  At Sofgent, we don’t just develop software; we create powerful
                   SaaS solutions that adapt, integrate, and grow with your
                   business. Our approach combines cutting-edge
                   technology, speed, and high-quality output, ensuring seamless
