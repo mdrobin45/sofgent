@@ -28,6 +28,9 @@ const Header = () => {
                               <Link href="/services">Services</Link>
                            </li>
                            <li className="font-semibold text-paragraph hover:underline hover:text-brand">
+                              <Link href="/projects">Projects</Link>
+                           </li>
+                           <li className="font-semibold text-paragraph hover:underline hover:text-brand">
                               <Link href="/contact">Contact</Link>
                            </li>
                         </ul>
