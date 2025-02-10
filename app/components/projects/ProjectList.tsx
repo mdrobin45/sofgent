@@ -1,14 +1,13 @@
 import { CtaNoSSR } from "@/app/page";
 import ProjectCard from "../common/ProjectCard";
-import { useEffect, useState } from "react";
 
 export default function ProjectList() {
-   const [projects, setProjects] = useState([]);
+   // const [projects, setProjects] = useState([]);
 
-   // Fetch projects
-   useEffect(() => {
-      fetch('')
-   },[]);
+   // // Fetch projects
+   // useEffect(() => {
+
+   // },[]);
    return (
       <section className="w-full py-16 md:py-[130px]">
          <div className="w-full mx-auto theme-container">
@@ -22,7 +21,7 @@ export default function ProjectList() {
          </div>
          <div className="mt-32">
             <CtaNoSSR />
-            </div>
+         </div>
       </section>
    );
 }
