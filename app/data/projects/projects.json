@@ -3,6 +3,8 @@
       "title": "Personal Portfolio Website",
       "slug": "personal-portfolio",
       "publish_date": "February 17, 2025",
+      "preview_link": "www.google.com",
+      "description": "A modern analytics dashboard built with React and TypeScript, featuring real-time data visualization, customizable widgets, and advanced filtering capabilities. The dashboard helps businesses track KPIs, analyze trends, and make data-driven decisions through an intuitive and responsive interface.",
       "thumbnail": "https://images.unsplash.com/photo-1664575599730-0814817939de",
       "overview": "A sleek and modern personal portfolio website to showcase skills, projects, and resume.",
       "screenshots": [
@@ -36,6 +38,8 @@
       "title": "Personal Portfolio Website",
       "slug": "personal-portfolio2",
       "publish_date": "February 17, 2025",
+      "preview_link": "www.google.com",
+      "description": "A modern analytics dashboard built with React and TypeScript, featuring real-time data visualization, customizable widgets, and advanced filtering capabilities. The dashboard helps businesses track KPIs, analyze trends, and make data-driven decisions through an intuitive and responsive interface.",
       "thumbnail": "https://images.unsplash.com/photo-1664575599730-0814817939de",
       "overview": "A sleek and modern personal portfolio website to showcase skills, projects, and resume.",
       "screenshots": [
@@ -68,7 +72,9 @@
    {
       "title": "Personal Portfolio Website",
       "slug": "personal-portfolio3",
+      "preview_link": "www.google.com",
       "publish_date": "February 17, 2025",
+      "description": "A modern analytics dashboard built with React and TypeScript, featuring real-time data visualization, customizable widgets, and advanced filtering capabilities. The dashboard helps businesses track KPIs, analyze trends, and make data-driven decisions through an intuitive and responsive interface.",
       "thumbnail": "https://images.unsplash.com/photo-1664575599730-0814817939de",
       "overview": "A sleek and modern personal portfolio website to showcase skills, projects, and resume.",
       "screenshots": [
