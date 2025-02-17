@@ -24,7 +24,7 @@ async function ProjectDetails({ params }: { params: { slug: string } }) {
    return (
       <section>
          <BreadCrumb
-            pageTitle={project.title}
+            pageTitle={project?.title}
             currentPage="Projects"
             to="/projects"
          />
@@ -36,17 +36,17 @@ async function ProjectDetails({ params }: { params: { slug: string } }) {
                   <Button
                      btnText="Live Preview"
                      external={true}
-                     href={project.preview_link}
+                     href={project?.preview_link}
                   />
                </div>
                <p className="text-gray-600 leading-relaxed">
-                  {project.description}
+                  {project?.description}
                </p>
             </div>
 
             {/* Project Images */}
             <div className="space-y-12">
-               {project.screenshots.map(
+               {project?.screenshots.map(
                   (item: { image: string; title: string }, index: number) => (
                      <div
                         key={index}
