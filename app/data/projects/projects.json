@@ -1,7 +1,9 @@
 [
    {
       "title": "Personal Portfolio Website",
-      "thumbnail": "https://example.com/thumbnails/portfolio.jpg",
+      "slug": "personal-portfolio",
+      "publish_date": "February 17, 2025",
+      "thumbnail": "https://images.unsplash.com/photo-1664575599730-0814817939de",
       "overview": "A sleek and modern personal portfolio website to showcase skills, projects, and resume.",
       "screenshots": [
          {
@@ -32,7 +34,9 @@
    },
    {
       "title": "Personal Portfolio Website",
-      "thumbnail": "https://example.com/thumbnails/portfolio.jpg",
+      "slug": "personal-portfolio2",
+      "publish_date": "February 17, 2025",
+      "thumbnail": "https://images.unsplash.com/photo-1664575599730-0814817939de",
       "overview": "A sleek and modern personal portfolio website to showcase skills, projects, and resume.",
       "screenshots": [
          {
@@ -63,7 +67,9 @@
    },
    {
       "title": "Personal Portfolio Website",
-      "thumbnail": "https://example.com/thumbnails/portfolio.jpg",
+      "slug": "personal-portfolio3",
+      "publish_date": "February 17, 2025",
+      "thumbnail": "https://images.unsplash.com/photo-1664575599730-0814817939de",
       "overview": "A sleek and modern personal portfolio website to showcase skills, projects, and resume.",
       "screenshots": [
          {
