@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Footer from "./components/Layout/Footer/Footer";
-import Header from "./components/Layout/Header/Header";
 import { inter, manrope } from "./fonts/fonts";
 import "./globals.css";
 
@@ -18,9 +16,9 @@ export default function RootLayout({
    return (
       <html lang="en">
          <body className={`${manrope.className} ${inter.variable}`}>
-            <Header />
+            {/* <Header /> */}
             {children}
-            <Footer />
+            {/* <Footer /> */}
          </body>
       </html>
    );
