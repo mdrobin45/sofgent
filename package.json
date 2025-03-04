@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@keystatic/core": "^0.5.45",
+    "@keystatic/next": "^5.0.4",
+    "@markdoc/markdoc": "^0.5.1",
     "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
     "aos": "^2.3.4",
@@ -22,6 +25,8 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18",
     "react-icons": "^5.3.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
     "tailwind-merge": "^2.5.3"
   },
   "devDependencies": {
